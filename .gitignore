@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+dist/
+build/
+coverage/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# PWA
+public/sw.js
+public/workbox-*.js
